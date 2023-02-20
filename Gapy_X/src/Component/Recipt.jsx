@@ -14,7 +14,7 @@ export default function Recipt(){
     return(
         <div className="recipt-container">
             <img src={Tick} alt="bruh"/>
-            <h1><span id="rupee">₹</span>{money}</h1>
+            <h1><span id="rupee">₹</span>{money}.00</h1>
             <div className="reciverInfo">
                 <p className="light">Paid to {vendorName}</p>
                 <p className="dim">{id}</p>

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body{
     height: 100vh;
@@ -7,6 +8,7 @@ body{
     background-color:#1E1E1E ;
     color: white;
     font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
 }
 
 .InfoContainer{
@@ -36,12 +38,31 @@ input{
 
 /* recipt */
 
-.dim{
-    color:gray ;
-}
-.recipt-container{
+.recipt-container,.dateInfo,.reciverInfo{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-size: medium;
+}
+.reciverInfo{
+    margin-bottom: 20vh;
+}
+.dim{
+    color: gray;
+}
+.light{
+    color: white;
+    font-weight: 500;
+}
+img {
+    height: 30vh;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 7.5vh 0px 1vh 0px;
 }
