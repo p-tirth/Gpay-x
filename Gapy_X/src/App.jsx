@@ -3,6 +3,7 @@ import "../src/Component/Info"
 import Info from './Component/Info'
 import Recipt from './Component/Recipt'
 import './App.css'
+import "./Component/Recipt.css"
 
 function App() {
 
