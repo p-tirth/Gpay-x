@@ -1,4 +1,3 @@
-import { useState } from 'react'  
 import "../src/Component/Info"
 import Recipt from './Component/Recipt'
 import "./Component/Recipt.css"

@@ -8,7 +8,7 @@ export default function Recipt(){
         let input = document.querySelector("#money-input")
         let moneyShow = document.querySelector("#money-display")
         console.log(input.value) 
-        moneyShow.innerHTML = "₹"+input.value
+        moneyShow.innerHTML = "₹ "+input.value
         input.remove()
         let sound = document.querySelector("#paied")
         sound.play()
