@@ -1,3 +1,22 @@
+img {
+    height: 30vh;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 7.5vh 0px 2vh 0px;
+}
+input{
+   background-color: #1E1E1E;
+   border: none;
+   text-align: center;
+   margin: 0px;
+   padding: 0px;
+   height: 1.2rem;
+}
 .recipt-container,.dateInfo,.reciverInfo{
     display: flex;
     justify-content: center;
@@ -15,14 +34,23 @@
     color: white;
     font-weight: 500;
 }
-img {
-    height: 30vh;
+.dateInfo{
+    padding-bottom: 10vh;
 }
-
-p{
-    margin: 0;
-    padding: 0;
+.money-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
-h1{
-    margin: 7.5vh 0px 1vh 0px;
+#rupee{
+    font-size: 2rem;
+}
+#money-input{
+    font-family: inherit;
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    flex: 0 auto;
 }
