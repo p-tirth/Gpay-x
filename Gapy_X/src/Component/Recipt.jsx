@@ -8,7 +8,7 @@ export default function Recipt(){
         let input = document.querySelector("#money-input")
         let moneyShow = document.querySelector("#money-display")
         console.log(input.value) 
-        moneyShow.innerHTML = input.value
+        moneyShow.innerHTML = "₹"+input.value
         input.remove()
         let sound = document.querySelector("#paied")
         sound.play()
@@ -21,10 +21,8 @@ export default function Recipt(){
     return(
         <div className="recipt-container">
             <img src={Tick} alt="bruh" onClick={ring}/>
-            <div className="money-container">
-                <span id="rupee">₹</span> <input id="money-input" type="number" placeholder=".00"/>
-                <h1 id="money-display"></h1>
-            </div>
+            <h1 id="money-display"><span id="rupee">₹</span> <input id="money-input" type="number" placeholder=".00"/>
+                </h1>
             <div className="reciverInfo">
                 <input className="light" type="text" placeholder={"Paid to Subramaniyam Iyar"}></input>
                 <input className="dim" type="text" placeholder={"Iyar19856@Paytm"}></input>
