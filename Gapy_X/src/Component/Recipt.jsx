@@ -18,6 +18,9 @@ export default function Recipt(){
     const monthNames = ["January", "February", "March", "April", "May", "June",
         "July", "August", "September", "October", "November", "dateecember"];
     let [date,month,year,hour,min] = [d.getDate(),monthNames[d.getMonth() ],d.getFullYear(),d.getHours(),d.getMinutes()]
+    hour.toString().length===1 ? hour ="0"+hour.toString() : hour
+    min.toString().length===1 ? min ="0"+min.toString() : min
+    
     return(
         <div className="recipt-container">
             <img src={Tick} alt="bruh" onClick={ring}/>

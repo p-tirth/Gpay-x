@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1E1E1E ;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+}
 img {
     height: 30vh;
 }
@@ -13,9 +26,12 @@ input{
    background-color: #1E1E1E;
    border: none;
    text-align: center;
+
    margin: 0px;
    padding: 0px;
-   height: 1.2rem;
+   height: fit-content;
+   width: 350px;
+   font-size: large;
 }
 .recipt-container,.dateInfo,.reciverInfo{
     display: flex;
@@ -28,11 +44,12 @@ input{
     margin-bottom: 20vh;
 }
 .dim{
-    color: gray;
+    color: rgb(165, 163, 163);
+    font-weight: 400;
 }
 .light{
-    color: white;
-    font-weight: 500;
+    color: whitesmoke;
+    font-weight: 600;
 }
 .dateInfo{
     padding-bottom: 10vh;
