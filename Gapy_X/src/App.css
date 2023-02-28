@@ -23,6 +23,7 @@ body{
     align-items: center;
     text-align: center;
     flex-direction: row;
+    
 }
 #Submit-input{
     font-size: xx-large;
